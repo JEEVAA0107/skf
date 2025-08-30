@@ -50,7 +50,7 @@ const Contact = () => {
                     <h3 className="font-semibold text-foreground mb-2">Address</h3>
                     <p className="text-muted-foreground">
                       Shree Kalyani Foods<br />
-                      [Your Address]<br />
+                      [pallipalayam]<br />
                       [City, State, PIN Code]
                     </p>
                   </div>
