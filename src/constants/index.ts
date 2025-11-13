@@ -1,0 +1,5 @@
+export const COMPANY_INFO = {
+  NAME: 'SHREE KALYANI FOODS',
+  PHONE: '+91 90259 21448',
+  WHATSAPP: '919025921448'
+} as const;

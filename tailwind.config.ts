@@ -65,11 +65,11 @@ export default {
 				// Custom food-inspired colors
 				spice: {
 					gold: 'hsl(var(--spice-gold))',
-					DEFAULT: 'hsl(var(--warm-orange))'
+					DEFAULT: 'hsl(var(--warm-green))'
 				},
 				cream: 'hsl(var(--cream))',
-				turmeric: 'hsl(var(--turmeric))',
-				cardamom: 'hsl(var(--cardamom))'
+				mint: 'hsl(var(--mint))',
+				sage: 'hsl(var(--sage))'
 			},
 			backgroundImage: {
 				'gradient-warm': 'var(--gradient-warm)',

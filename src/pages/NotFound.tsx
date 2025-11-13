@@ -1,5 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import WhatsAppFloat from "@/components/WhatsAppFloat";
 
 const NotFound = () => {
   const location = useLocation();
@@ -20,6 +21,7 @@ const NotFound = () => {
           Return to Home
         </a>
       </div>
+      <WhatsAppFloat />
     </div>
   );
 };

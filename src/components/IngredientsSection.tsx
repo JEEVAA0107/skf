@@ -17,18 +17,18 @@ const IngredientsSection = () => {
   ];
 
   return (
-    <section className="py-20 px-6 bg-gradient-subtle">
+    <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 bg-gradient-subtle">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
+        <div className="text-center mb-12 sm:mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-foreground">
             Pure Ingredients
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto">
             Quality is our promise. We use only the freshest ingredients with absolutely no preservatives or chemicals.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
           <Card className="bg-card/80 backdrop-blur-sm border-border/50 shadow-elegant">
             <CardHeader className="text-center pb-4">
               <CardTitle className="text-2xl font-bold text-primary">

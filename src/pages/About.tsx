@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import WhatsAppFloat from "@/components/WhatsAppFloat";
 
 const About = () => {
   return (
@@ -12,7 +13,7 @@ const About = () => {
           <div className="text-center mb-16">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-warm bg-clip-text text-transparent">
               About Shree Kalyani Foods
-            </h1>
+            </h1><br /><br />
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Bringing authentic South Indian flavors to your table with tradition, quality, and care
             </p>
@@ -36,7 +37,22 @@ const About = () => {
               </div>
             </div>
             
+          {/* generation Section */}
+          
             <div>
+              <h2 className="text-3xl font-bold mb-6 text-foreground">Generation</h2>
+              <div className="space-y-4 text-muted-foreground">
+                <p>
+                As a second-generation food business, we combine 25 years of experience with new flavors, trends, and 
+                healthier choices to offer you the best products. Our commitment to quality and tradition remains strong,
+                 while we bring modern recipes, sustainable practices, and convenient online shopping to meet your needs. 
+                Enjoy authentic taste with a fresh, innovative touch.
+                </p>
+            </div>
+            </div>
+            
+            
+             <div>
               <h2 className="text-3xl font-bold mb-6 text-foreground">Our Values</h2>
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
@@ -83,6 +99,7 @@ const About = () => {
       </main>
 
       <Footer />
+      <WhatsAppFloat />
     </div>
   );
 };

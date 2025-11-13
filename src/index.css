@@ -17,16 +17,16 @@ All colors MUST be HSL.
     --popover: 40 20% 99%;
     --popover-foreground: 30 15% 15%;
 
-    --primary: 25 95% 53%;
+    --primary: 120 60% 50%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 45 25% 90%;
+    --secondary: 120 25% 90%;
     --secondary-foreground: 30 15% 15%;
 
-    --muted: 45 15% 92%;
+    --muted: 120 15% 92%;
     --muted-foreground: 30 8% 45%;
 
-    --accent: 35 85% 60%;
+    --accent: 120 70% 45%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -34,21 +34,21 @@ All colors MUST be HSL.
 
     --border: 45 20% 88%;
     --input: 45 20% 88%;
-    --ring: 25 95% 53%;
+    --ring: 120 60% 50%;
 
     /* Custom food-inspired tokens */
-    --spice-gold: 45 95% 65%;
-    --warm-orange: 25 95% 53%;
+    --spice-gold: 120 50% 70%;
+    --warm-green: 120 60% 50%;
     --cream: 50 30% 95%;
-    --turmeric: 48 100% 67%;
-    --cardamom: 120 25% 85%;
+    --mint: 120 40% 80%;
+    --sage: 120 25% 85%;
     
     /* Gradients */
-    --gradient-warm: linear-gradient(135deg, hsl(var(--spice-gold)), hsl(var(--warm-orange)));
+    --gradient-warm: linear-gradient(135deg, hsl(var(--spice-gold)), hsl(var(--warm-green)));
     --gradient-subtle: linear-gradient(180deg, hsl(var(--cream)), hsl(var(--background)));
     
     /* Shadows */
-    --shadow-warm: 0 10px 40px -10px hsl(var(--warm-orange) / 0.3);
+    --shadow-warm: 0 10px 40px -10px hsl(var(--warm-green) / 0.3);
     --shadow-elegant: 0 4px 20px -4px hsl(var(--primary) / 0.15);
 
     --radius: 0.5rem;
