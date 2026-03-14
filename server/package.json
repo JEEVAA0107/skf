@@ -9,9 +9,18 @@
   "dependencies": {
     "express": "^4.18.2",
     "cors": "^2.8.5",
+<<<<<<< HEAD
     "xlsx": "^0.18.5"
+=======
+    "mongodb": "^6.20.0",
+    "dotenv": "^16.3.1"
+>>>>>>> a645a6c828bd6b8efbb43c980817aade1091aeb0
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> a645a6c828bd6b8efbb43c980817aade1091aeb0
